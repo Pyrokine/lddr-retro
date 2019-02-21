@@ -12,18 +12,18 @@ TextureImporter:
     21300014: UILine1_9
     21300016: UILine1_10
     21300018: UILine1_11
-    21300020: UILine1_12
-    21300022: UILine1_13
-    21300024: UILine1_14
-    21300026: UILine1_15
-    21300028: UILine1_16
-    21300030: UILine1_17
-    21300032: UILine1_18
-    21300034: UILine1_19
-    21300036: UILine1_20
-    21300038: UILine1_21
-    21300040: UILine1_22
-    21300042: UILine1_23
+    21300020: Key02
+    21300022: Key03
+    21300024: Key06
+    21300026: Key09
+    21300028: Key10
+    21300030: Key11
+    21300032: Key12
+    21300034: Key13
+    21300036: Key14
+    21300038: Key15
+    21300040: Key16
+    21300042: Key17
     21300044: UILine1_24
     21300046: UILine1_25
     21300048: UILine1_26
@@ -46,12 +46,12 @@ TextureImporter:
     21300082: UILine1_41
     21300084: UILine1_42
     21300086: UILine1_43
-    21300088: UILine1_44
-    21300090: UILine1_45
+    21300088: Key01
+    21300090: Key04
     21300092: UILine1_46
-    21300094: UILine1_47
-    21300096: UILine1_48
-    21300098: UILine1_49
+    21300094: Key05
+    21300096: Key07
+    21300098: Key08
     21300100: UILine1_50
     21300102: UILine1_51
     21300104: UILine1_52
@@ -65,7 +65,7 @@ TextureImporter:
     21300120: UILine1_60
     21300122: UILine1_61
   externalObjects: {}
-  serializedVersion: 5
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -83,6 +83,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -93,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -355,7 +357,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_12
+      name: Key02
       rect:
         serializedVersion: 2
         x: 774
@@ -375,7 +377,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_13
+      name: Key03
       rect:
         serializedVersion: 2
         x: 896
@@ -395,7 +397,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_14
+      name: Key06
       rect:
         serializedVersion: 2
         x: 322
@@ -415,7 +417,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_15
+      name: Key09
       rect:
         serializedVersion: 2
         x: 688
@@ -435,7 +437,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_16
+      name: Key10
       rect:
         serializedVersion: 2
         x: 810
@@ -455,7 +457,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_17
+      name: Key11
       rect:
         serializedVersion: 2
         x: 1
@@ -475,7 +477,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_18
+      name: Key12
       rect:
         serializedVersion: 2
         x: 123
@@ -495,7 +497,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_19
+      name: Key13
       rect:
         serializedVersion: 2
         x: 245
@@ -515,7 +517,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_20
+      name: Key14
       rect:
         serializedVersion: 2
         x: 367
@@ -535,7 +537,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_21
+      name: Key15
       rect:
         serializedVersion: 2
         x: 489
@@ -555,7 +557,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_22
+      name: Key16
       rect:
         serializedVersion: 2
         x: 611
@@ -575,7 +577,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_23
+      name: Key17
       rect:
         serializedVersion: 2
         x: 733
@@ -1015,12 +1017,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_44
+      name: Key01
       rect:
         serializedVersion: 2
         x: 652
         y: 466
-        width: 122
+        width: 121
         height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1035,15 +1037,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_45
+      name: Key04
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 385
-        width: 123
+        width: 121
         height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1063,7 +1065,7 @@ TextureImporter:
         width: 75
         height: 71
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1075,7 +1077,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_47
+      name: Key05
       rect:
         serializedVersion: 2
         x: 200
@@ -1083,7 +1085,7 @@ TextureImporter:
         width: 121
         height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1095,7 +1097,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_48
+      name: Key07
       rect:
         serializedVersion: 2
         x: 444
@@ -1103,7 +1105,7 @@ TextureImporter:
         width: 121
         height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1115,7 +1117,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_49
+      name: Key08
       rect:
         serializedVersion: 2
         x: 566
@@ -1123,7 +1125,7 @@ TextureImporter:
         width: 121
         height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1143,7 +1145,7 @@ TextureImporter:
         width: 180
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1163,7 +1165,7 @@ TextureImporter:
         width: 180
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1183,7 +1185,7 @@ TextureImporter:
         width: 65
         height: 52
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1203,7 +1205,7 @@ TextureImporter:
         width: 65
         height: 52
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1223,7 +1225,7 @@ TextureImporter:
         width: 14
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1243,7 +1245,7 @@ TextureImporter:
         width: 90
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1263,7 +1265,7 @@ TextureImporter:
         width: 90
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1283,7 +1285,7 @@ TextureImporter:
         width: 90
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1303,7 +1305,7 @@ TextureImporter:
         width: 90
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1323,7 +1325,7 @@ TextureImporter:
         width: 90
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1343,7 +1345,7 @@ TextureImporter:
         width: 90
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1363,7 +1365,7 @@ TextureImporter:
         width: 90
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1383,7 +1385,7 @@ TextureImporter:
         width: 90
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1403,6 +1405,8 @@ TextureImporter:
     edges: []
     weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
