@@ -38,6 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 547118969
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: bt_leftright
+    uniqueID: 2564473601
+    locked: 0
+  - name: bt_ani
+    uniqueID: 1651619765
     locked: 0
