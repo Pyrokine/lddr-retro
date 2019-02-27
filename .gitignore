@@ -6,11 +6,13 @@ Obj/
 UnityGenerated/
 Library/
 Assets/AssetStoreTools*
+build/
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
 ExportedObj/
+.vs/
 *.svd
 *.userprefs
 *.csproj
@@ -32,3 +34,4 @@ ExportedObj/
 Icon?
 ehthumbs.db
 Thumbs.db
+
