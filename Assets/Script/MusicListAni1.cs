@@ -17,7 +17,7 @@ public class MusicListAni1 : MonoBehaviour
         if (is_update == true){
             Vector3 target = new Vector3(-0f, -1.5f, 0f);
             transform.position = Vector3.MoveTowards(transform.position, target, 3 * Time.deltaTime);
-            if (Vector3.Distance(target, transform.position) < 0.1f)
+            if (Vector3.Distance(target, transform.position) < 0.01f)
                 is_update = false;
         }
     }

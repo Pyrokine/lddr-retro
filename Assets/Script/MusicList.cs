@@ -54,8 +54,7 @@ public class MusicList : MonoBehaviour
             int i;
             bar11.Move();
             bar12.Move();
-            musicListAni1.Hide();
-            musicListAni2.Show();
+            musicListAni1.Move();
             musicListAni2.Move();
         }
     }
