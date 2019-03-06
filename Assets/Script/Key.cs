@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Key : MonoBehaviour
 {
-    public Note note;
 
     private readonly RuntimePlatform platform = Application.platform;
+    private Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -21,35 +21,35 @@ public class Key : MonoBehaviour
         {
             if (Input.touchCount > 0)
             {
+                bool isKeyDown = false;
                 for (int i = 0; i < Input.touchCount; i++)
                 {
                     if (Input.GetTouch(i).phase == TouchPhase.Began)
                     {
-                        checkTouch(Input.GetTouch(i).position);
+                       isKeyDown = checkTouch(Input.GetTouch(i).position);
                     }
                 }
+                animator.SetBool("IsKeyDown", isKeyDown);
             }
         }
-        else if (platform == RuntimePlatform.WindowsEditor)
+        else if ((platform == RuntimePlatform.WindowsEditor) || 
+            (platform == RuntimePlatform.WindowsPlayer))
         {
-            if (Input.GetMouseButtonDown(0))
+            bool isKeyDown = false;
+            if (Input.GetMouseButton(0))
             {
-                checkTouch(Input.mousePosition);
+                isKeyDown = checkTouch(Input.mousePosition);
             }
+            animator.SetBool("IsKeyDown", isKeyDown);
         }
     }
 
  
-    void checkTouch(Vector3 pos)
+    bool checkTouch(Vector3 pos)
     {
         Vector3 wp = Camera.main.ScreenToWorldPoint(pos);
         Vector2 touchPos = new Vector2(wp.x, wp.y);
-        Collider2D hit = Physics2D.OverlapPoint(touchPos);
-
-        if (hit)
-        {
-            Debug.Log("Clicked");
-            note.Move();
-        }
+        CapsuleCollider2D collider = GetComponent<CapsuleCollider2D>();
+        return collider.OverlapPoint(touchPos);
     }
 }
