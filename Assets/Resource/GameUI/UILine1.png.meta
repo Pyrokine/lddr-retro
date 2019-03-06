@@ -27,13 +27,13 @@ TextureImporter:
     21300044: UILine1_24
     21300046: UILine1_25
     21300048: UILine1_26
-    21300050: UILine1_27
-    21300052: UILine1_28
-    21300054: UILine1_29
-    21300056: UILine1_30
-    21300058: UILine1_31
-    21300060: UILine1_32
-    21300062: UILine1_33
+    21300050: SKey01
+    21300052: SKey02
+    21300054: SKey03
+    21300056: SKey12
+    21300058: SKey13
+    21300060: SKey14
+    21300062: SKey15
     21300064: UILine1_34
     21300066: UILine1_35
     21300068: UILine1_36
@@ -56,14 +56,16 @@ TextureImporter:
     21300102: UILine1_51
     21300104: UILine1_52
     21300106: UILine1_53
-    21300108: UILine1_54
-    21300110: UILine1_55
-    21300112: UILine1_56
-    21300114: UILine1_57
-    21300116: UILine1_58
-    21300118: UILine1_59
-    21300120: UILine1_60
-    21300122: UILine1_61
+    21300108: SKey04
+    21300110: SKey05
+    21300112: SKey06
+    21300114: SKey07
+    21300116: SKey08
+    21300118: SKey09
+    21300120: SKey10
+    21300122: SKey11
+    21300124: SKey16
+    21300126: SKey17
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -637,7 +639,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_27
+      name: SKey01
       rect:
         serializedVersion: 2
         x: 717
@@ -657,7 +659,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_28
+      name: SKey02
       rect:
         serializedVersion: 2
         x: 808
@@ -677,7 +679,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_29
+      name: SKey03
       rect:
         serializedVersion: 2
         x: 899
@@ -697,7 +699,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_30
+      name: SKey12
       rect:
         serializedVersion: 2
         x: 729
@@ -717,7 +719,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_31
+      name: SKey13
       rect:
         serializedVersion: 2
         x: 820
@@ -737,7 +739,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_32
+      name: SKey14
       rect:
         serializedVersion: 2
         x: 911
@@ -757,13 +759,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_33
+      name: SKey15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
-        width: 461
-        height: 100
+        x: 1
+        y: 143
+        width: 90
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1237,7 +1239,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_54
+      name: SKey04
       rect:
         serializedVersion: 2
         x: 1
@@ -1257,7 +1259,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_55
+      name: SKey05
       rect:
         serializedVersion: 2
         x: 92
@@ -1277,7 +1279,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_56
+      name: SKey06
       rect:
         serializedVersion: 2
         x: 183
@@ -1297,7 +1299,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_57
+      name: SKey07
       rect:
         serializedVersion: 2
         x: 274
@@ -1317,7 +1319,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_58
+      name: SKey08
       rect:
         serializedVersion: 2
         x: 365
@@ -1337,7 +1339,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_59
+      name: SKey09
       rect:
         serializedVersion: 2
         x: 456
@@ -1357,7 +1359,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_60
+      name: SKey10
       rect:
         serializedVersion: 2
         x: 547
@@ -1377,7 +1379,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UILine1_61
+      name: SKey11
       rect:
         serializedVersion: 2
         x: 638
@@ -1392,6 +1394,46 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: cc38fcde4f3825a49a8e576ad31ebcf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKey16
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 143
+        width: 90
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3704dcade9d294e4a818b5f908c7369d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKey17
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 143
+        width: 90
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6621c8d5870f426439a6b5631fb37740
       vertices: []
       indices: 
       edges: []
