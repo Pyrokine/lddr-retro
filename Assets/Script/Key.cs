@@ -7,6 +7,7 @@ public class Key : MonoBehaviour
 
     private readonly RuntimePlatform platform = Application.platform;
     private Animator animator;
+    private bool isKeyDown;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +22,7 @@ public class Key : MonoBehaviour
         {
             if (Input.touchCount > 0)
             {
-                bool isKeyDown = false;
+                isKeyDown = false;
                 for (int i = 0; i < Input.touchCount; i++)
                 {
                     if (Input.GetTouch(i).phase == TouchPhase.Began)
@@ -35,7 +36,7 @@ public class Key : MonoBehaviour
         else if ((platform == RuntimePlatform.WindowsEditor) || 
             (platform == RuntimePlatform.WindowsPlayer))
         {
-            bool isKeyDown = false;
+            isKeyDown = false;
             if (Input.GetMouseButton(0))
             {
                 isKeyDown = checkTouch(Input.mousePosition);
@@ -51,5 +52,15 @@ public class Key : MonoBehaviour
         Vector2 touchPos = new Vector2(wp.x, wp.y);
         CapsuleCollider2D collider = GetComponent<CapsuleCollider2D>();
         return collider.OverlapPoint(touchPos);
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if ((collision.gameObject.tag == "Note") && isKeyDown)
+        {
+            Destroy(collision.gameObject);
+        }
+
+        Debug.Log(collision.gameObject.name + " in key area");
     }
 }
